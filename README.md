@@ -34,4 +34,8 @@ train为训练代码，修改路径和按需求修改超参数即可进行训练
 <img width="850" height="583" alt="源数据集训练_val_map" src="https://github.com/user-attachments/assets/8a463ac1-65bc-4f47-816f-685eb41499d5" />
 <img width="1349" height="1349" alt="源数据集训练_best_val_confusion_matrix_6class" src="https://github.com/user-attachments/assets/bf36905b-ac44-4da1-97c8-79f2c531aebf" />
 
-（5）
+（5）关于独立测试样本部分，同样来源于上面所述的零件，但与图像数据集所用的不一样，现公开部分展示图以及关于独立测试实验的混淆矩阵（上传文件中可直接下载）等，模型名称和矩阵命名一样，分为两种：一是100张总图的测试结果：二是100张中提取的子图测试结果（后缀出现-2）。
+
+<img width="1609" height="708" alt="image" src="https://github.com/user-attachments/assets/68fbe077-67ce-4a2d-85b5-e60f7c872422" />
+
+图中可看到，采集的独立测试样本有外表面和内表面的，以及不同视角。该测试样本未经过任何增强处理以及预处理，主要考验模型对其的泛化能力和预测稳定性。
