@@ -27,3 +27,10 @@ train为训练代码，修改路径和按需求修改超参数即可进行训练
 
 
 采集平台的硬件与环境条件话可以查看我的论文。
+（4）最终模型的结果图如下，展示训练集与验证集的准确率/损失函数/mAP等指标，以及混淆矩阵。其他所有指标可从source_complet_report中查询。
+<img width="2370" height="1166" alt="源数据集训练_train_val_valid_acc_compare" src="https://github.com/user-attachments/assets/704708e9-5a92-4635-bd40-ee8dd056b681" />
+<img width="1770" height="1166" alt="源数据集训练_val_loss" src="https://github.com/user-attachments/assets/2cc50b40-0f4e-4ce1-8f90-65935199530c" />
+<img width="1770" height="1166" alt="源数据集训练_val_map" src="https://github.com/user-attachments/assets/8a463ac1-65bc-4f47-816f-685eb41499d5" />
+<img width="2699" height="2366" alt="源数据集训练_best_val_confusion_matrix_6class" src="https://github.com/user-attachments/assets/bf36905b-ac44-4da1-97c8-79f2c531aebf" />
+
+（5）
